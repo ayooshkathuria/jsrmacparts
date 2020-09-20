@@ -8,6 +8,6 @@ weight: 1
 We deal in sale / repair / spare parts of Niwar / Tape Cutting Machines Machines.
 
 
-# Post-Bed Single Needle Sewing Machine
+# Niwar / Tape Cutting Machine
 ![Post-Bed Shoe Upper Sewing Machine](/images/niwar-tape-cutting-machine.jpg)
 
