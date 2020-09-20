@@ -1,19 +1,26 @@
 <div class="call">
-  <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.Data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
-    </div>
-    {% endif %}
-  </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+  <div style="font-size: large">
+    <div class="call-box-top">
+      {% if site.data.contact.phone1 %}
+          <div class="call-phone"><strong>Phone 1 : </strong> {{ site.data.contact.phone1 }} </div>
+          <div class="call-phone"><strong>Phone 2 : </strong> {{ site.data.contact.phone2 }} </div>
+          
+      {% endif %}
+      {% if site.data.contact.email %}
+      <div class="call-email"><strong>Email &nbsp; &nbsp;&nbsp;: </strong>
+        <a href="mailto:{{ .site.Data.contact.email }}">
+          {{ site.data.contact.email }}
+        </a>
       </div>
-    {% endif %}
+      {% endif %}
+    </div>
+      {% if include.show_button %}
+        <div class="call-box-bottom", style="float: left;">
+          <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+        </div>
+        <div class="call-box-bottom", style = "float: right;">
+          <a href="{{ site.data.contact.IndiaMart }}" class="button">Visit IndiaMart Page</a>
+        </div>
+      {% endif %}
+  </div>
 </div>
